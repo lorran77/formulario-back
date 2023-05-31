@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form-contato{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    background-color:bisque;
+    max-width: 600px;
+    width:400px;
+    margin: 20px;
+    padding: 25px;
+}
+
+input, 
+button,
+textarea {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+    border-color: #fff;
+    background-color: burlywood;
+    color: black;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    outline-color: black;
+    
+    
+}
+
+input {
+
+    /* border-radius: 5%; */
+}
+
+button {
+
+    background-color: black;
+    font-weight: bold; color: #fff;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+button:hover{
+
+    color: burlywood;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+label {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label:hover {
+
+    background-color: burlywood;
+        
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+    
+
+    
+}
+
+textarea {
+
+    min-height: 13rem;
+    resize: none;
+    
+}
+
+
+.lapis {
+
+    margin-bottom: 15px;
+    width: 90px;
+    
+}
+
+.titulo {
+
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  color: burlywood; 
+    
+}
+
+.message {
+
+    margin-top: 20px;
+}
